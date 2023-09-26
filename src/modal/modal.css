@@ -1,0 +1,40 @@
+.backdrop {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  background: #00000060;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.modal {
+  width: max-content;
+  height: max-content;
+  padding: 1.875rem 6.25rem;
+  background: white;
+  border-radius: 0.625rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.875rem;
+}
+
+.reset_btn {
+  width: 1.875rem;
+  height: 1.875rem;
+  background: none;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.reset_btn:hover {
+  rotate: 360deg;
+}
